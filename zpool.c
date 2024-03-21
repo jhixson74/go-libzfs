@@ -3,7 +3,7 @@
  */
 
 #include <libzfs.h>
-#include <libzfs/sys/zfs_context.h>
+#include <sys/zfs_context.h>
 #include <libzutil.h>
 #include <thread_pool.h>
 

@@ -74,4 +74,5 @@ int restore_libzfs_stdout(int saved) {
 		return res;
 	}
 	close(saved);
+	return res;
 }
